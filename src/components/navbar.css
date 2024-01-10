@@ -1,0 +1,37 @@
+navbar {
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFD700; 
+    padding: 1.8%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    transition: background 0.5s ease-in-out; 
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+a {
+    font-family: 'Noto Sans SC', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 2.8vw; 
+    text-decoration: none;
+    font-weight: bold;
+    color: #8B4513; 
+    transition: color 0.5s ease-in-out; 
+}
+
+a:hover {
+    color: #FFD700; 
+}
+
+navbar:hover {
+    background-color: #570e01; 
+}
+
+a:hover {
+    transform: scale(1.02);
+}
